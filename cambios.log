@@ -126,3 +126,13 @@ Column count does not match; SQL statement:
 INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
 [2024-05-16 20:55:46] [ INFO ] [BD:24] tabla creada con exito
 [2024-05-16 20:55:46] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:05:17] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 21:05:17] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:05:17] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:05:48] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 21:05:48] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:05:48] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.

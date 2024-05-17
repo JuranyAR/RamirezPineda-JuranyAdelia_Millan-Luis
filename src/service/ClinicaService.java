@@ -7,8 +7,8 @@ import model.Odontologo;
 import java.util.List;
 
 public class ClinicaService {
-    private OdontologoDAOH2 odontologoDAOH2;
-    private OdontologoDAOColeccion odontologoDAOColeccion;
+    private final OdontologoDAOH2 odontologoDAOH2;
+    private final OdontologoDAOColeccion odontologoDAOColeccion;
 
     public ClinicaService() {
         odontologoDAOH2 = new OdontologoDAOH2();

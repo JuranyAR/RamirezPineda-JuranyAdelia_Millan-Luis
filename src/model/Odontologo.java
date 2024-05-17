@@ -1,9 +1,9 @@
 package model;
 
 public class Odontologo {
-    private int numeroMatricula;
-    private String nombre;
-    private String apellido;
+    private final int numeroMatricula;
+    private final String nombre;
+    private final String apellido;
 
     public Odontologo(int numeroMatricula, String nombre, String apellido) {
         this.numeroMatricula = numeroMatricula;

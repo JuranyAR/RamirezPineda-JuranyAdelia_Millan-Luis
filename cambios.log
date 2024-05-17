@@ -1,0 +1,128 @@
+[2024-05-16 20:18:14] [ WARN ] [OdontologoDAOH2:28] Tabla "ODONTOLOGOS" no encontrada
+Table "ODONTOLOGOS" not found; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [42102-224]
+[2024-05-16 20:18:14] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:20:35] [ INFO ] [BD:22] tabla creada con exito
+[2024-05-16 20:20:36] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 20:20:36] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:20:39] [ ERROR] [BD:25] La base de datos puede que ya esté siendo utilizada: "C:/Users/Equipo/c10dao.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Equipo/c10dao.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-16 20:20:39] [ WARN ] [OdontologoDAOH2:28] La base de datos puede que ya esté siendo utilizada: "C:/Users/Equipo/c10dao.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Equipo/c10dao.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-16 20:20:39] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:27:16] [ ERROR] [BD:27] La base de datos puede que ya esté siendo utilizada: "C:/Users/Equipo/c10dao.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Equipo/c10dao.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-16 20:27:16] [ WARN ] [OdontologoDAOH2:28] La base de datos puede que ya esté siendo utilizada: "C:/Users/Equipo/c10dao.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Equipo/c10dao.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-16 20:27:16] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:27:20] [ ERROR] [BD:27] La base de datos puede que ya esté siendo utilizada: "C:/Users/Equipo/c10dao.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Equipo/c10dao.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-16 20:27:20] [ WARN ] [OdontologoDAOH2:28] La base de datos puede que ya esté siendo utilizada: "C:/Users/Equipo/c10dao.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Equipo/c10dao.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-16 20:27:20] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:28:39] [ WARN ] [OdontologoDAOH2:28] La base de datos puede que ya esté siendo utilizada: "C:/Users/Equipo/c10dao.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Equipo/c10dao.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-05-16 20:35:57] [ ERROR] [OdontologoDAOH2:47] Error al recuperar todos los odontólogos de la base de datos: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 20:35:57] [ ERROR] [BD:27] La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS  (MATRICULA,NOMBRE, APELLIDO) VALUES ('11111','Doc Diana','Ramirez'), ('123123123','Adelia','Alvarez') [23502-224]
+[2024-05-16 20:35:57] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 20:35:57] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:37:12] [ ERROR] [OdontologoDAOH2:47] Error al recuperar todos los odontólogos de la base de datos: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 20:37:12] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:37:12] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 20:37:12] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:43:24] [ WARN ] [OdontologoDAOH2:28] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [42104-224]
+[2024-05-16 20:43:35] [ ERROR] [OdontologoDAOH2:47] Error al recuperar todos los odontólogos de la base de datos: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 20:43:36] [ ERROR] [BD:27] La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS  (MATRICULA,NOMBRE, APELLIDO) VALUES ('11111','Doc Diana','Ramirez'), ('123123123','Adelia','Alvarez') [23502-224]
+[2024-05-16 20:43:36] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 20:43:36] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:44:00] [ ERROR] [BD:27] La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS  (MATRICULA,NOMBRE, APELLIDO) VALUES ('11111','Doc Diana','Ramirez'), ('123123123','Adelia','Alvarez') [23502-224]
+[2024-05-16 20:44:00] [ INFO ] [OdontologoDAOH2:45] Se recuperaron todos los odontólogos de la base de datos.
+[2024-05-16 20:44:00] [ ERROR] [BD:27] La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS  (MATRICULA,NOMBRE, APELLIDO) VALUES ('11111','Doc Diana','Ramirez'), ('123123123','Adelia','Alvarez') [23502-224]
+[2024-05-16 20:44:00] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 20:44:00] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:48:46] [ ERROR] [BD:27] La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS  (MATRICULA,NOMBRE, APELLIDO) VALUES ('11111','Doc Diana','Ramirez'), ('123123123','Adelia','Alvarez') [23502-224]
+[2024-05-16 20:48:46] [ INFO ] [OdontologoDAOH2:45] Se recuperaron todos los odontólogos de la base de datos.
+[2024-05-16 20:48:46] [ ERROR] [BD:27] La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS  (MATRICULA,NOMBRE, APELLIDO) VALUES ('11111','Doc Diana','Ramirez'), ('123123123','Adelia','Alvarez') [23502-224]
+[2024-05-16 20:48:46] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 20:48:46] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:49:39] [ ERROR] [BD:27] La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS  (MATRICULA,NOMBRE, APELLIDO) VALUES ('11111','Doc Diana','Ramirez'), ('123123123','Adelia','Alvarez') [23502-224]
+[2024-05-16 20:49:39] [ INFO ] [OdontologoDAOH2:45] Se recuperaron todos los odontólogos de la base de datos.
+[2024-05-16 20:49:39] [ ERROR] [BD:27] La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS  (MATRICULA,NOMBRE, APELLIDO) VALUES ('11111','Doc Diana','Ramirez'), ('123123123','Adelia','Alvarez') [23502-224]
+[2024-05-16 20:49:39] [ ERROR] [BD:27] La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS  (MATRICULA,NOMBRE, APELLIDO) VALUES ('11111','Doc Diana','Ramirez'), ('123123123','Adelia','Alvarez') [23502-224]
+[2024-05-16 20:49:39] [ ERROR] [BD:27] La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS  (MATRICULA,NOMBRE, APELLIDO) VALUES ('11111','Doc Diana','Ramirez'), ('123123123','Adelia','Alvarez') [23502-224]
+[2024-05-16 20:49:39] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 20:49:39] [ ERROR] [BD:27] La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS  (MATRICULA,NOMBRE, APELLIDO) VALUES ('11111','Doc Diana','Ramirez'), ('123123123','Adelia','Alvarez') [23502-224]
+[2024-05-16 20:49:39] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:50:55] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:50:55] [ ERROR] [OdontologoDAOH2:47] Error al recuperar todos los odontólogos de la base de datos: Columna "NUMERO_MATRICULA" no encontrada
+Column "NUMERO_MATRICULA" not found [42122-224]
+[2024-05-16 20:50:55] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:50:55] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:50:55] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:50:55] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 20:50:55] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:50:55] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:51:31] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:51:31] [ ERROR] [OdontologoDAOH2:47] Error al recuperar todos los odontólogos de la base de datos: Columna "NUMERO_MATRICULA" no encontrada
+Column "NUMERO_MATRICULA" not found [42122-224]
+[2024-05-16 20:51:31] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:51:31] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:51:31] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:51:31] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 20:51:31] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:51:31] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 20:55:46] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:55:46] [ ERROR] [OdontologoDAOH2:47] Error al recuperar todos los odontólogos de la base de datos: Columna "NUMERO_MATRICULA" no encontrada
+Column "NUMERO_MATRICULA" not found [42122-224]
+[2024-05-16 20:55:46] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:55:46] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:55:46] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:55:46] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 20:55:46] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 20:55:46] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.

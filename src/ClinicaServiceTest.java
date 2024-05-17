@@ -24,7 +24,7 @@ public class ClinicaServiceTest {
         BD.crearTablas();
         ClinicaService clinicaService = new ClinicaService();
         BD.crearTablas();
-        Odontologo odontologo = new Odontologo(1, "Juan", "Perez");
+        Odontologo odontologo = new Odontologo(7,1111111, "Juan", "Perez");
         Odontologo odontologoGuardado = clinicaService.guardarOdontologoH2(odontologo);
         assertNotNull(odontologoGuardado);
         assertEquals(odontologo.getNumeroMatricula(), odontologoGuardado.getNumeroMatricula());
@@ -34,7 +34,7 @@ public class ClinicaServiceTest {
     public void testGuardarOdontologoColeccion() {
         BD.crearTablas();
         ClinicaService clinicaService = new ClinicaService();
-        Odontologo odontologo = new Odontologo(1, "Maria", "Gomez");
+        Odontologo odontologo = new Odontologo(6,22222, "Maria", "Gomez");
         Odontologo odontologoGuardado = clinicaService.guardarOdontologoColeccion(odontologo);
         assertNotNull(odontologoGuardado);
         assertEquals(odontologo.getNumeroMatricula(), odontologoGuardado.getNumeroMatricula());

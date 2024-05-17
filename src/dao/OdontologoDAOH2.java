@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.ArrayList;
 public class OdontologoDAOH2 implements iDao<Odontologo> {
     private static final Logger logger= Logger.getLogger(OdontologoDAOH2.class);
-    private static final String SQL_INSERT="INSERT INTO ODONTOLOGOS VALUES(?,?,?)";
+    private static final String SQL_INSERT="INSERT INTO ODONTOLOGOS VALUES(?,?,?,?)";
     private static final String SQL_SELECT_ALL = "SELECT * FROM ODONTOLOGOS";
     @Override
     public Odontologo guardar(Odontologo odontologo) {
@@ -18,9 +18,10 @@ public class OdontologoDAOH2 implements iDao<Odontologo> {
         try{
             connection= BD.getConnection();
             PreparedStatement psinsert= connection.prepareStatement(SQL_INSERT);
-            psinsert.setInt(1,odontologo.getNumeroMatricula());
-            psinsert.setString(2, odontologo.getNombre());
-            psinsert.setString(3, odontologo.getApellido());
+            psinsert.setInt(1,odontologo.getId());
+            psinsert.setInt(2,odontologo.getNumeroMatricula());
+            psinsert.setString(3, odontologo.getNombre());
+            psinsert.setString(4, odontologo.getApellido());
             psinsert.execute();
             logger.info("objeto guardado en la tabla");
 
@@ -39,7 +40,7 @@ public class OdontologoDAOH2 implements iDao<Odontologo> {
             PreparedStatement psSelectAll = connection.prepareStatement(SQL_SELECT_ALL);
             ResultSet rs = psSelectAll.executeQuery();
             while (rs.next()) {
-                Odontologo odontologo = new Odontologo(rs.getInt("NUMERO_MATRICULA"), rs.getString("NOMBRE"), rs.getString("APELLIDO"));
+                Odontologo odontologo = new Odontologo(rs.getInt("ID"),rs.getInt("MATRICULA"), rs.getString("NOMBRE"), rs.getString("APELLIDO"));
                 odontologos.add(odontologo);
             }
             logger.info("Se recuperaron todos los odontólogos de la base de datos.");

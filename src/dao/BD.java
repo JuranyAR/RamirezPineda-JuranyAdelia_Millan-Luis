@@ -31,7 +31,7 @@ public class BD {
     }
     public static Connection getConnection() throws Exception{
         Class.forName("org.h2.Driver");
-        return DriverManager.getConnection("jdbc:h2:~/clinicaOdontologica","sa","sa");
+        return DriverManager.getConnection("jdbc:h2:mem:~/clinicaOdontologica","sa","sa");
     }
 }
 

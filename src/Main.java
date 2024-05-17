@@ -7,7 +7,7 @@ import java.util.List;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static  void main(String[] args) {
-        Odontologo odontologo = new Odontologo(234234234, "Juan", "Perez");
+        Odontologo odontologo = new Odontologo(3,234234234, "Juan", "Perez");
 
         ClinicaService clinicaService = new ClinicaService();
 
@@ -21,8 +21,8 @@ public class Main {
         }
 
         // Crear algunos odontólogos y guardarlos en la colección
-        Odontologo odontologo1 = new Odontologo(1, "Juan", "Perez");
-        Odontologo odontologo2 = new Odontologo(2, "Maria", "Gomez");
+        Odontologo odontologo1 = new Odontologo(4,34345, "Juan", "Perez");
+        Odontologo odontologo2 = new Odontologo(5,435345, "Maria", "Gomez");
 
         clinicaService.guardarOdontologoColeccion(odontologo1);
         clinicaService.guardarOdontologoColeccion(odontologo2);

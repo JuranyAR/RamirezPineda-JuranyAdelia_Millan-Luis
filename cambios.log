@@ -136,3 +136,57 @@ Column count does not match; SQL statement:
 INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
 [2024-05-16 21:05:48] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
 [2024-05-16 21:05:48] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:15:58] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:15:58] [ ERROR] [OdontologoDAOH2:47] Error al recuperar todos los odontólogos de la base de datos: Columna "NUMERO_MATRICULA" no encontrada
+Column "NUMERO_MATRICULA" not found [42122-224]
+[2024-05-16 21:15:58] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:15:58] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:15:58] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:15:59] [ WARN ] [OdontologoDAOH2:28] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-224]
+[2024-05-16 21:15:59] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:15:59] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:20:19] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:20:19] [ INFO ] [OdontologoDAOH2:45] Se recuperaron todos los odontólogos de la base de datos.
+[2024-05-16 21:20:19] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:20:19] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:20:19] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:20:19] [ WARN ] [OdontologoDAOH2:28] Parametro "#1" no está fijado
+Parameter "#1" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?,?) [90012-224]
+[2024-05-16 21:20:19] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:20:19] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:22:58] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:22:58] [ INFO ] [OdontologoDAOH2:45] Se recuperaron todos los odontólogos de la base de datos.
+[2024-05-16 21:22:58] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:22:58] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:22:58] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:22:58] [ WARN ] [OdontologoDAOH2:28] Parametro "#4" no está fijado
+Parameter "#4" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?,?) [90012-224]
+[2024-05-16 21:22:58] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:22:58] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:27:41] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:27:41] [ INFO ] [OdontologoDAOH2:46] Se recuperaron todos los odontólogos de la base de datos.
+[2024-05-16 21:27:41] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:27:41] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:27:41] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:27:41] [ INFO ] [OdontologoDAOH2:26] objeto guardado en la tabla
+[2024-05-16 21:27:41] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:27:41] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:28:00] [ INFO ] [OdontologoDAOH2:26] objeto guardado en la tabla
+[2024-05-16 21:28:00] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:28:00] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:28:43] [ WARN ] [OdontologoDAOH2:29] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?,?) [42104-224]
+[2024-05-16 21:28:44] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:28:44] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.
+[2024-05-16 21:28:52] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:28:52] [ INFO ] [OdontologoDAOH2:46] Se recuperaron todos los odontólogos de la base de datos.
+[2024-05-16 21:28:52] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:28:52] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:28:52] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:28:52] [ INFO ] [OdontologoDAOH2:26] objeto guardado en la tabla
+[2024-05-16 21:28:52] [ INFO ] [BD:24] tabla creada con exito
+[2024-05-16 21:28:52] [ INFO ] [OdontologoDAOColeccion:21] Odontólogo guardado en la colección.

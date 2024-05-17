@@ -12,18 +12,10 @@ import service.ClinicaService;
 import java.util.List;
 
 public class ClinicaServiceTest {
-/*    private ClinicaService clinicaService;
-
-    @Before
-    public void setUp() {
-        clinicaService = new ClinicaService();
-    }
-*/
     @Test
     public void testGuardarOdontologoH2() {
         BD.crearTablas();
         ClinicaService clinicaService = new ClinicaService();
-        BD.crearTablas();
         Odontologo odontologo = new Odontologo(7,1111111, "Juan", "Perez");
         Odontologo odontologoGuardado = clinicaService.guardarOdontologoH2(odontologo);
         assertNotNull(odontologoGuardado);
